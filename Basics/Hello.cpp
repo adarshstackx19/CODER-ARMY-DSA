@@ -7,7 +7,7 @@ int main() {
     cout<< 2+3<<endl;
 
     char c='a';
-    cout<<'a';
+    cout<<c;
 
     return 0;
 }
