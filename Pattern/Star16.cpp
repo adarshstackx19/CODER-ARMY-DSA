@@ -6,6 +6,7 @@ int main() {
   
     int row,col;
     int n;
+
     cout<<"Enter number: ";
     cin>>n;
 
@@ -20,6 +21,7 @@ int main() {
           cout<<"* ";
 
          }
+
          cout<<endl;
       
 
@@ -27,3 +29,9 @@ int main() {
 
     return 0;
 }
+
+//         * 
+//       * * 
+//     * * * 
+//   * * * * 
+// * * * * * 
