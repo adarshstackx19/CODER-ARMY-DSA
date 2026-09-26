@@ -10,7 +10,7 @@ int main() {
 
       for(col=row;col>=1;col--){
 
-        cout<<col;
+        cout<<col<<" ";
 
       }
 
@@ -20,3 +20,9 @@ int main() {
 
     return 0;
 }
+
+// 1 
+// 2 1 
+// 3 2 1 
+// 4 3 2 1 
+// 5 4 3 2 1 
