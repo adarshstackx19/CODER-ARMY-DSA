@@ -7,11 +7,14 @@ int main() {
     int row,col;
     char name;
 
-    for(row=1;row<=5;row++){
+    for(row=1;row<=5;row++)
+    {
       name='a'+(row-1);
-      for(col=1;col<=row;col++){
 
-        cout<<name;
+      for(col=1;col<=row;col++)
+      {
+
+        cout<<name<<" ";
 
       }
 
@@ -21,3 +24,9 @@ int main() {
 
     return 0;
 }
+
+// a 
+// b b 
+// c c c 
+// d d d d 
+// e e e e e 
