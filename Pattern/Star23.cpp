@@ -22,7 +22,6 @@ int main() {
           for(col=row-1;col>=1;col--)
             cout<<col<<" ";
           
-
          
          cout<<endl;
       
@@ -31,3 +30,9 @@ int main() {
 
     return 0;
 }
+
+//         1 
+//       1 2 1 
+//     1 2 3 2 1 
+//   1 2 3 4 3 2 1 
+// 1 2 3 4 5 4 3 2 1 
